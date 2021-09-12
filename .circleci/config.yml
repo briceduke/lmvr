@@ -14,8 +14,6 @@ jobs:
       - run:
           name: Install dependencies
           command: yarn
-      - run: bash ./bin/run --version
-      - run: bash ./bin/run --help
       - run:
           name: Testing
           command: yarn test
