@@ -5,9 +5,9 @@ Lemur Version Control: The slightly off-putting TypeScript implementation of Git
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/lmvr.svg)](https://npmjs.org/package/lmvr)
-[![CircleCI](https://circleci.com/gh/briceduke/lmvr/tree/master.svg?style=shield)](https://circleci.com/gh/briceduke/lmvr/tree/master)
+[![CircleCI](https://circleci.com/gh/briceduke/lmvr/tree/main.svg?style=shield)](https://circleci.com/gh/briceduke/lmvr/tree/main)
 [![Downloads/week](https://img.shields.io/npm/dw/lmvr.svg)](https://npmjs.org/package/lmvr)
-[![License](https://img.shields.io/npm/l/lmvr.svg)](https://github.com/briceduke/lmvr/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/lmvr.svg)](https://github.com/briceduke/lmvr/blob/main/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -29,28 +29,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`lmvr hello [FILE]`](#lmvr-hello-file)
 * [`lmvr help [COMMAND]`](#lmvr-help-command)
-
-## `lmvr hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ lmvr hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ lmvr hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/briceduke/lmvr/blob/v0.0.0/src/commands/hello.ts)_
+* [`lmvr init [FILE]`](#lmvr-init-file)
 
 ## `lmvr help [COMMAND]`
 
@@ -68,4 +48,18 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
+
+## `lmvr init [PATH]`
+
+Initialize a new, empty repository.
+
+```
+USAGE
+  $ lmvr init [PATH]
+
+OPTIONS
+  -h, --help       show CLI help
+```
+
+_See code: [src/commands/init.ts](https://github.com/briceduke/lmvr/blob/v0.0.0/src/commands/init.ts)_
 <!-- commandsstop -->

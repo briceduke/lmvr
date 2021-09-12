@@ -18,7 +18,7 @@
     "@oclif/test": "^1",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^5",
-    "@types/node": "^10",
+    "@types/node": "^16.9.1",
     "chai": "^4",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
@@ -41,7 +41,11 @@
   ],
   "homepage": "https://github.com/briceduke/lmvr",
   "keywords": [
-    "oclif"
+    "git",
+    "lmvr",
+    "version",
+    "version-control",
+    "typescript"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -55,7 +59,6 @@
   "repository": "briceduke/lmvr",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
-    "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rimraf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md"
