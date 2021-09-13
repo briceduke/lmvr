@@ -4,9 +4,9 @@ import * as iniParser from 'ini'
 import { repoFile } from '../utils/repo-file';
 
 export class Repository {
-    worktree;
+    worktree: string;
 
-    conf;
+    conf: { [key: string]: any; } | undefined;
 
     lmvrDir: string;
 

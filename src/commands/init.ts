@@ -15,5 +15,6 @@ export default class Init extends Command {
     const {args} = this.parse(Init)
 
     repoCreate(args.path)
+    this.log("Initialized an empty lmvr directory!")
   }
 }
