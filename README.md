@@ -20,7 +20,7 @@ $ npm install -g lmvr
 $ lmvr COMMAND
 running command...
 $ lmvr (-v|--version|version)
-lmvr/0.0.0 win32-x64 node-v16.7.0
+lmvr/0.1.0 win32-x64 node-v16.7.0
 $ lmvr --help [COMMAND]
 USAGE
   $ lmvr COMMAND
@@ -61,5 +61,5 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/init.ts](https://github.com/briceduke/lmvr/blob/v0.0.0/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/briceduke/lmvr/blob/v0.1.0/src/commands/init.ts)_
 <!-- commandsstop -->
