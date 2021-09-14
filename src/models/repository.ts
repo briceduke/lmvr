@@ -1,7 +1,7 @@
 import * as osPath from 'path'
 import * as fs from 'fs'
 import * as iniParser from 'ini'
-import { repoFile } from '../utils/repo-file';
+import { repoFile } from '../utils/repo/repo-file';
 
 export class Repository {
     worktree: string;

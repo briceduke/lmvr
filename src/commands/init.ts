@@ -1,6 +1,6 @@
 import {Command, flags} from '@oclif/command'
 
-import { repoCreate } from '../utils/repo-create'
+import { repoCreate } from '../utils/repo/repo-create'
 
 export default class Init extends Command {
   static description = 'Initialize a new, empty repository.'

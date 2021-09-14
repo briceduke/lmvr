@@ -1,4 +1,4 @@
-import { Repository } from '../models/repository'
+import { Repository } from '../../models/repository'
 import { repoDir } from './repo-dir'
 import { repoPath } from './repo-path'
 

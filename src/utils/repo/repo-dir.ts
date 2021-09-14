@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 
-import { Repository } from '../models/repository'
+import { Repository } from '../../models/repository'
 import { repoPath } from './repo-path'
 
 export const repoDir = (repo: Repository, path: string[], mkdir = false) => {

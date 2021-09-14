@@ -5,7 +5,7 @@ import { repoFile } from './repo-file'
 import { repoDir } from './repo-dir'
 import { repoDefaultConfig } from './repo-default-config'
 
-import { Repository } from "../models/repository"
+import { Repository } from "../../models/repository"
 
 export const repoCreate = (path = './') => {
     const repo = new Repository(path, true)
