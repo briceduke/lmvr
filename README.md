@@ -30,7 +30,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`lmvr help [COMMAND]`](#lmvr-help-command)
-* [`lmvr init [FILE]`](#lmvr-init-file)
+* [`lmvr init [PATH]`](#lmvr-init-path)
 
 ## `lmvr help [COMMAND]`
 
@@ -58,7 +58,7 @@ USAGE
   $ lmvr init [PATH]
 
 OPTIONS
-  -h, --help       show CLI help
+  -h, --help  show CLI help
 ```
 
 _See code: [src/commands/init.ts](https://github.com/briceduke/lmvr/blob/v0.0.0/src/commands/init.ts)_
