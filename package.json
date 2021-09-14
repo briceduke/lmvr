@@ -1,7 +1,7 @@
 {
   "name": "lmvr",
   "description": "Lemur Version Control: The slightly off-putting TypeScript implementation of Git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Brice Duke @briceduke",
   "bin": {
     "lmvr": "./bin/run"
